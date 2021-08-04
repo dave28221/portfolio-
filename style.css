@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.intro{
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Montserrat';
+    animation: fadeIn ease-in 3s;
+ 
+
+ @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+}
+.hi{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    padding-top: 135px;
+    font-size: 1.5rem;
+
+}
+.wave{
+    width: 6%;
+    position: relative;
+    left: 290px;
+    bottom: 160px;
+    animation-name: example;
+    animation-duration: 1.5s;
+}
+
+@keyframes example{
+    0%   { left:290x; bottom:160px;}
+    50%   {left: 330px; bottom:160px; transform: rotate(25deg);}
+    100%  { left:290px; bottom:160px;}
+}
+
+.clearfloat{
+    clear:both;
+}
+
+.content{
+    background-color: #333333;
+    height: 420px;
+
+}
+.containerOne{
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 100px;
+ 
+}
+
+hr{
+    border: 1px solid;
+    opacity: 0.1;
+}
+.latey{
+    margin-top: 50px;
+    color: 	#686868;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.jake{
+
+  width: 550px;
+  height: 350px;
+  float: left;
+  margin-right: 50px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  transition: transform .3s;
+
+  
+}
+
+.jake:hover{
+    transform: scale(1.1);
+
+}
+
+.theStuff{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: lighter;
+
+}
+
+.theStuffTwo{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+
+
+}
+
+#btnOne{
+    background-color: #4c87af; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-right: 80px !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 90px;
+  
+ 
+}
+
+#btnOne:hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  cursor: pointer;
+}
+
+.thirdC{
+    margin-top: -17px;
+    height: 550px;
+    background-color: #ebebeb;
+}
+
+.liney{
+  width: 5%;
+  margin: 0 auto;
+  color: #0E3051;
+  opacity: 1;
+  border: 2px solid;
+  
+   
+}
+.skills{
+  
+    text-align: center;
+    bottom: 200px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.listt{
+    
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.listt li{
+    margin-top: 20px;
+}
+
+.code{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 10%;
+  box-shadow: 3px 3px 5px 6px #ccc;
+
+}
+
+@media screen and (max-width:1000px){
+
+.containTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+.jake{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px;
+  
+}
+
+#btnOne{
+
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    
+}
+
+}
+.look{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.containerTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+.boxOne{
+    padding: 5%;
+    text-align: center;
+
+}
+.boxTwo{
+    padding: 5%;
+    text-align: center;
+
+}
+ 
+/* footer */
+
+.enjoy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+#date{
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*media quieries */
+
+@media screen and (max-width: 1174px){
+}
+
+@media screen and (max-width: 853px){
+    #btnOne{
+        background-color: #4c87af; /* Green */
+        border: none;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .jake{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 40px;
+      
+    }
+}
+@media screen and (max-width:665px){
+    .containerTwo{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    .boxTwo{
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (max-width:622px){
+    .jake{
+        max-width: 100%;
+        height: auto;
+    }
+
+    img{
+        width: 20%;
+    }
+
+    .wave{
+        display: none;
+    }
+
+     header{
+        margin: 0 auto;
+        }
+
+}
+
+.line{
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+/* Boostrap */
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:1rem;
+    margin-bottom:0;
+  }
+
